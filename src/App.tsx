@@ -17,7 +17,7 @@ export class App extends React.Component<{}, AppState> {
   timerId: number | undefined;
 
   state: AppState = {
-    hasClock: false,
+    hasClock: true,
     clockName: 'Clock-0',
   };
 
